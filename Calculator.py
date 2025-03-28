@@ -35,17 +35,22 @@ while True:
             continue
 
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
-
+            # Collaborator1 enter Code For ADD here
+	          # Include your Name/ID/Date in comments
+ 	          print(num1, "+", num2, "=", add(num1, num2))
         elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
-
+            # Collaborator2 enter Code For SUBTRACT here
+	          # Include your Name/ID/Date in comments
+            #
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
-
+            # Collaborator3 enter Code For MULTIPLY here
+	          # Include your Name/ID/Date in comments
+            #
         elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
-        
+            # Collaborator4 enter Code For DIVIDE here
+	          # Include your Name/ID/Date in comments
+            # 
+          
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
